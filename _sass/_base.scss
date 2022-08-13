@@ -6,6 +6,9 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: Roboto;
+  text-transform: uppercase;
+
 }
 
 hr {
@@ -94,12 +97,12 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
-  width: 100%;
+  width: 10%;
 
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: Roboto;
     p {
       display: inline-block;
       margin: 0;
@@ -165,9 +168,11 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    font-size:1rem;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size:0.8rem;
     &:hover {
       color: var(--global-hover-color);
     }
@@ -183,7 +188,7 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -271,6 +276,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -285,11 +291,12 @@ footer.fixed-bottom {
   }
 }
 
-footer.sticky-bottom {
+footer.sticky-bottom div{
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 // CV
@@ -329,7 +336,7 @@ footer.sticky-bottom {
   padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -413,12 +420,18 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+
   a {
     text-decoration: none;
-
+    .card-title {
+      font-size:1rem;
+      text-transform: uppercase;
+    }
+   
     &:hover {
       .card-title {
         color: var(--global-theme-color);
+        
       }
     }
   }
@@ -626,6 +639,15 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post{
+  h1{
+    font-size:1.4rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  p{
+    font-size:0.82rem;
+    margin-bottom: 0;
+  }
   .post-meta{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
