@@ -5,7 +5,7 @@ permalink: /projects/
 description: selected works
 nav: true
 nav_order: 2
-display_categories: [work] # [work, fun]
+display_categories: # [work, fun]
 horizontal: false
 ---
 
