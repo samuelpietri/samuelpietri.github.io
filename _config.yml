@@ -68,7 +68,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: samuelpietri # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: samuelpietri # your Twitter handle
-linkedin_username: # your LinkedIn user name
+instagram_username: samuelpietri # your Instagram handle
+linkedin_username: samuel-pietri # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -99,8 +100,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_name: Blog # blog_name will be displayed in your blog page
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
