@@ -17,6 +17,14 @@ d-byline a, d-article d-byline a {
   }
 }
 
+
+d-title {
+  border-top-color: var(--global-divider-color) !important;
+  a, p, h1, h2, h3, h4, h5, h6, li, table {
+    color: var(--global-text-color) !important;
+  }
+}
+
 d-article {
   border-top-color: var(--global-divider-color) !important;
   a, p, h1, h2, h3, h4, h5, h6, li, table {
@@ -31,8 +39,13 @@ d-article {
   b i {
     display: inline;
   }
+  p{
+ 
+    line-height: 1.5em;
+  }
 
   d-contents {
+
     align-self: start;
     grid-column: 1 / 4;
     grid-row: auto / span 4;

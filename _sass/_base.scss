@@ -7,7 +7,7 @@
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
   font-family: Roboto;
-  text-transform: uppercase;
+  //text-transform: uppercase;
 
 }
 
@@ -73,7 +73,9 @@ blockquote {
   }
 
   .card-title {
+
     color: var(--global-text-color);
+    text-align: center;
   }
 
   .card-item {
@@ -97,7 +99,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
-  width: 10%;
+  width: 100%;
 
   .address {
     margin-bottom: 5px;
@@ -110,7 +112,7 @@ blockquote {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 100px) {
   .profile {
     width: 30%;
     .address {
@@ -122,6 +124,7 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  padding-bottom: 1rem;
   a {
     color: inherit;
     &:hover {
@@ -293,9 +296,10 @@ footer.fixed-bottom {
 
 footer.sticky-bottom div{
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.6rem;
   text-align: center;
 }
 
@@ -332,11 +336,16 @@ footer.sticky-bottom div{
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 3rem;
+  }
+  h2 {
+    color: var(--global-theme-color);
+    text-transform: uppercase;
+    font-size: 1rem;
   }
 }
 
@@ -410,6 +419,9 @@ footer.sticky-bottom div{
 // Distill
 
 .distill {
+  h {
+    padding-top: 0.2rem;
+  }
   a:hover {
     border-bottom-color: var(--global-theme-color);
     text-decoration: none;
@@ -420,12 +432,32 @@ footer.sticky-bottom div{
 // Projects
 
 .projects {
-
+  justify-content: center;
+  p {
+    margin-top:2px;
+  }
   a {
     text-decoration: none;
+
+    .card-body {
+      padding-top: 0.1rem;
+      padding-bottom: 5rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      margin-bottom:10px;
+
+    }
     .card-title {
-      font-size:1rem;
+      font-size:1.5rem;
       text-transform: uppercase;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+    }
+    .card-text {
+      text-align: center;
+
+      text-transform: uppercase;
+
     }
    
     &:hover {
@@ -444,7 +476,7 @@ footer.sticky-bottom div{
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 
     .row {
       display: flex;
@@ -453,15 +485,16 @@ footer.sticky-bottom div{
   }
 
   .grid-sizer, .grid-item {
-    width: 250px;
+    width: 100%;
     margin-bottom: 10px;
+    justify-content: center;
   }
 
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: right;
   }
@@ -640,19 +673,21 @@ html.transition *:after {
 // Extra Markdown style (post Customization)
 .post{
   h1{
-    font-size:1.4rem;
+    font-size:3.4rem;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 0.2rem;
   }
+
   p{
     font-size:0.82rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
   .post-meta{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
+
   .post-tags{
     color: var(--global-text-color-light);
     font-size: 0.875rem;

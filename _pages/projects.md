@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: PROJECTS
 permalink: /projects/
-description: selected works
+description: SELECTED WORKS
 nav: true
 nav_order: 2
 display_categories: # [work, fun]

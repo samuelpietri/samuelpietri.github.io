@@ -49,7 +49,7 @@ navbar_fixed: true
 footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -100,9 +100,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: BLOG # blog_name will be displayed in your blog page
+blog_nav_title: BLOG # your blog must have a title for it to be displayed in the nav bar
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -116,9 +116,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -269,7 +269,7 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-resize 800x"
+    webp: "-resize 1200x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -297,7 +297,7 @@ enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_medium_zoom:         false   # enables image zoom feature (as on medium.com)
 
 
 # -----------------------------------------------------------------------------

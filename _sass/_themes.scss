@@ -18,10 +18,13 @@
 
   .fa-sun {
     display : none;
+    padding-left: 10px;
+    padding-top: 8px;
+    
   }
   .fa-moon {
     padding-left: 10px;
-    padding-top: 12px;
+    padding-top: 10px;
     display : block;
   }
 
@@ -49,7 +52,7 @@ html[data-theme='dark'] {
 
   .fa-sun {
     padding-left: 10px;
-    padding-top: 12px;
+    padding-top: 10px;
     display : block;
   }
   .fa-moon {
