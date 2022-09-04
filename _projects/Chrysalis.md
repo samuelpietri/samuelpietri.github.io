@@ -2,7 +2,7 @@
 layout: page
 title: Chrysalis
 description: A/V ARTWORK
-img: assets\img\projects\Chrysalis\cover.jpg
+img: assets/img/projects/Chrysalis/cover.jpg
 importance: 1
 category: work
 ---

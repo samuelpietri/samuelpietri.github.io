@@ -2,7 +2,7 @@
 layout: page
 title: Chrysalis - Teaser
 description: A/V ARTWORK
-img: assets\img\projects\Chrysalis_Teaser\chrysalis_teaser_cover.jpg
+img: assets/img/projects/Chrysalis_Teaser/chrysalis_teaser_cover.jpg
 importance: 1
 category: work
 ---

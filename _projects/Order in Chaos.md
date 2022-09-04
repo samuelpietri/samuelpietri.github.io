@@ -2,7 +2,7 @@
 layout: page
 title: Order in Chaos
 description: A/V ARTWORK
-img: assets\img\p001_Before_the_Light\cover.jpg
+img: assets/img/projects/Chrysalis_Cover/Chrysalis_ArtWork_cover.jpg
 importance: 1
 category: work
 ---

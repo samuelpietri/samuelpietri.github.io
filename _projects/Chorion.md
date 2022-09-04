@@ -2,7 +2,7 @@
 layout: page
 title: Chorion
 description: A/V ARTWORK
-img: assets\img\projects\Chorion\cover.jpg
+img: assets/img/projects/Chorion/cover.jpg
 importance: 1
 category: work
 ---

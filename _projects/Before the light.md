@@ -2,7 +2,7 @@
 layout: page
 title: Before the light
 description: A/V ARTWORK
-img: assets\img\projects\Before_the_Light\cover.jpg
+img: assets/img/projects/Before_the_Light/cover.jpg
 importance: 1
 category: work
 ---
