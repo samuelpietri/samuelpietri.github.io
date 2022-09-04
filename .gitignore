@@ -11,4 +11,6 @@ Gemfile.lock
 vendor
 *.ipynb_checkpoints
 *.vscode*
-
+*.mp4
+*.mov
+*.avi
