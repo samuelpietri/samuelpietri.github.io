@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: distill_custom
 title:  "Deep Image Matting"
 excerpt: "Deep Learning solutions for Image Matting"
 date:   2021-01-02 16:28:53 +0100
@@ -8,8 +8,15 @@ classes: wide
 header:
   teaser: "assets/images/002_image_matting/test.png"
   #overlay_image: "assets/images/002_image_matting/test.png"
----
 
+toc:
+  - name: MODnet Results
+    # if a section has subsections, you can add them as follows:
+    # subsections:
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
+  - name: U-2-Net Results
+---
  <br />
 
 The greenscreen will become obsolete, that's a fact. One way or another new techniques will jump in and will make work of image-matting a much more automated, less time-consuming job. To be fair some alternatives are already been used in Hollywood productions such as the [virtual sets](https://www.insider.com/green-screen-virtual-sets-mandalorian-2020-4) used in the latest Disney series *The Mandalorian*. A set of led screens recreate the environment in real time improving the effects of reflections and allowing the actors to move in a much more realistic set are becoming a thing. 
@@ -27,66 +34,108 @@ Since I've already introduced *The Mandalorian* I'll use some shots from the ser
 
  <br />
 
-*MODNet results*
-![MODNet_001](/assets/images/002_image_matting/MODNet_001.jpg)
-
-![MODNet_002](/assets/images/002_image_matting/MODNet_002.jpg)
-
-![MODNet_003](/assets/images/002_image_matting/MODNet_003.jpg)
+## MODNet results
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="assets/img/posts/image_matting/MODNet_001.jpg" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="assets/img/posts/image_matting/MODNet_002.jpg" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="assets/img/posts/image_matting/MODNet_003.jpg" class="img-fluid rounded" %}
+    </div>
+</div>
 
  <br />
 
-*U-2-Net results* 
-![U-2-Net_001](/assets/images/002_image_matting/U-2-Net_001.jpg)
-
-![U-2-Net_002](/assets/images/002_image_matting/U-2-Net_002.jpg)
-
-![U-2-Net_003](/assets/images/002_image_matting/U-2-Net_003.jpg)
-
+## U-2-Net results
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="assets/img/posts/image_matting/U-2-Net_001.jpg" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="assets/img/posts/image_matting/U-2-Net_002.jpg" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="assets/img/posts/image_matting/U-2-Net_003.jpg" class="img-fluid rounded" %}
+    </div>
+</div>
  <br />
 I believe they're doing a decent job extracting the foreground characters from the environment but anyone who has tried cutting out figures in Photoshop knows that the real issue arise when your working on the edges of the character. Any little detail, the hair or even accessories can be troublesome and greatly affect the ability to perform the task well.
 The *MODNet* model seems to handle very well a wider range of scenarios and is able to extract details in more refined way, expecially on the boundary of the extracted shape. The *U-2-Net* is still very good but less precise on the border and the objects direcly related to the character.
 
 It becomes clear that having really detailed masks such the one produced by the *MODNet* model, can be used right away letting you change the background in a metter of seconds such in this small sample I provide here below.
 
-<figure>
-    <img src="/assets/images/002_image_matting/Image_Matting_Test.gif">
-    <figcaption>Background swapping example</figcaption>
-</figure>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="/assets/img/posts/image_matting/Image_Matting_Test.gif" class="img-fluid rounded" %}
+    </div>
+
+</div>
 
 Let's move to video content. Here I selected scenes with clear characters in front of the camera. 
 
-<iframe src="https://player.vimeo.com/video/496647965" width="640" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/496647965" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 And surpsingly both models are doing just fine. The time consistency is still the main issue though, with some clear unwanted flickering effect appearing on the alpha mask especially with fast movement on screen.
 
 After some test it becomes clear that *MODNet* sometimes show these large stains, which are difficult to intepret since they seems to appear with different contents in the input image.
  <br />
 
-![MODnet_Errors](/assets/images/002_image_matting/MODnet_Errors.jpg)
- 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="/assets/img/posts/image_matting/MODnet_Errors.jpg" class="img-fluid rounded"%}
+    </div>
+</div>
+
+
+ _MODnet_Errors_
  <br />
 
 *U-2-Net* on the other hand is not showing any weird shapes in the alpha mask but at the same time is less precise finding the actual contour of the characters and it definitely struggles handling reflections, such us the one on the armour.
  <br />
 
-![U-2-Net_Errors](/assets/images/002_image_matting/U-2-Net_Errors.jpg)
- 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="/assets/img/posts/image_matting/U-2-Net_Errors.jpg" class="img-fluid rounded"%}
+    </div>
+</div>
+_U-2-Net_Errors_
 <br />
 
 Here some more side by side comparison between the two models. Again they both have their flaws but in the context of portrait matting I believe *MODNet* is doing a better job. 
 <br />
 
-![MODNet_U-2-Net_001](/assets/images/002_image_matting/MODNet_U-2-Net_001.jpg)
-![MODNet_U-2-Net_002](/assets/images/002_image_matting/MODNet_U-2-Net_002.jpg)
-![MODNet_U-2-Net_003](/assets/images/002_image_matting/MODNet_U-2-Net_003.jpg)
-
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="/assets/img/posts/image_matting/MODNet_U-2-Net_001.jpg" class="img-fluid rounded"%}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="/assets/img/posts/image_matting/MODNet_U-2-Net_002.jpg" class="img-fluid rounded"%}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html  path="/assets/img/posts/image_matting/MODNet_U-2-Net_003.jpg" class="img-fluid rounded"%}
+    </div>
+</div>
 
  <br />
 
 And if you haven't had enough here's a longer footage where a much diverse of images are processed. The more we have 
-<iframe src="https://player.vimeo.com/video/496656226" width="640" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/496656226" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
  <br />
 
 Next up some I'll do some more testing of these models in the wild.

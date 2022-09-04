@@ -21,7 +21,7 @@ toc:
 ---
 
 <figure>
-    <img src="/assets/img/001_depth/video_dancer_depth.gif">
+    <img src="/assets/img/posts/depth_estimation/video_dancer_depth.gif">
     <figcaption>CVDE monocular depth estimation</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ I won't get into the technical details and differences between each of the archi
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html  path="/assets/img/001_depth/depth_comparison.jpg" class="img-fluid rounded"%}
+        {% include figure.html  path="/assets/img/posts/depth_estimation/depth_comparison.jpg" class="img-fluid rounded"%}
     </div>
 </div>
 
@@ -53,23 +53,23 @@ Most of them have been trained on images from street dataset (depth estimation i
 Below, the same models have been applied to a diverse set of images. The depth estimator used for by the 3D Ken Burns project is clearly failing at most of the tasks but the others area clearly doing a good job, given the diversity of the content they've been facing. While clearly the smaller MiDaS model is compromising a bit of the accuracy due to the reduced size of the models if process the images way faster, the two last models on the right are the best ones with the v1.0 that seems to grasp more details but it also create some artifacts or cloudy areas where something weird is clearly going on.
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html  path="/assets/img/001_depth/depth_comparison2.jpg" class="img-fluid rounded"%}
+        {% include figure.html  path="/assets/img/posts/depth_estimation/depth_comparison2.jpg" class="img-fluid rounded"%}
     </div>
 </div>
-<!-- ![Depth Estimation Comparison](/assets/img/001_depth/depth_comparison2.jpg) -->
+<!-- ![Depth Estimation Comparison](/assets/img/posts/depth_estimation/depth_comparison2.jpg) -->
 
 As you may have guessed from the names of some of these projects some of the applications revolve around the idea of animating still photos by informing the pixels of their depth information. Even though the depth map is not perfectly matching and the network if forced to guess what is happening in any occuluded part of the image interesting effects can emerge. As shown by these two examples below virtual camera animation can be implemented to give an interesting 3-dimentional look to the picture.
 
 <!-- <figure class="row mt-3">
-    <img src="/assets/img/001_depth/swing.gif">
-    <img src="/assets/img/001_depth/dolly_zoom_in.gif">
+    <img src="/assets/img/posts/depth_estimation/swing.gif">
+    <img src="/assets/img/posts/depth_estimation/dolly_zoom_in.gif">
 </figure> -->
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html  path="/assets/img/001_depth/swing.gif" class="img-fluid rounded" %}
+        {% include figure.html  path="/assets/img/posts/depth_estimation/swing.gif" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html  path="/assets/img/001_depth/dolly_zoom_in.gif" class="img-fluid rounded" %}
+        {% include figure.html  path="/assets/img/posts/depth_estimation/dolly_zoom_in.gif" class="img-fluid rounded" %}
     </div>
 
 </div>
@@ -84,24 +84,24 @@ The real big drawback, though, is timing. With this video 4 seconds long, the wh
 The process starts with a monocular depth estimation, and it looks ok. Doesn't seem to suffer from any pariticular problem.
 
 <figure>
-    <img src="/assets/img/001_depth/cvde_process.jpg">
+    <img src="/assets/img/posts/depth_estimation/cvde_process.jpg">
     <figcaption>CVDE Process</figcaption>
 </figure>
 
 When the additional process kicks in, the background seems much more stable and without artifacts but the dancer figures suddenly are completely miscalculated.
 It probably needs some more testing to really figure out what is actually causing the incorrect estimation . I would say that the camera motion occuring at some point of the footage and the reflections on the floor are not helping.
 <figure>
-    <img src="/assets/img/001_depth/color_consistent_mc.gif">
+    <img src="/assets/img/posts/depth_estimation/color_consistent_mc.gif">
     <figcaption>CVDE monocular depth estimation</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/img/001_depth/color_consistent_full.gif">
+    <img src="/assets/img/posts/depth_estimation/color_consistent_full.gif">
     <figcaption>CVDE monocular depth estimation with additional consistency check</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/img/001_depth/color_midas.gif">
+    <img src="/assets/img/posts/depth_estimation/color_midas.gif">
     <figcaption>MiDaS v2.1 depth estimation</figcaption>
 </figure>
 
