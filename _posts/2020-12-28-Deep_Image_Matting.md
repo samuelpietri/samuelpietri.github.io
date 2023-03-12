@@ -84,7 +84,7 @@ It becomes clear that having really detailed masks such the one produced by the 
 
 Let's move to video content. Here I selected scenes with clear characters in front of the camera. 
 
-<iframe src="https://player.vimeo.com/video/496647965" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/496647965" width="100%" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 And surpsingly both models are doing just fine. The time consistency is still the main issue though, with some clear unwanted flickering effect appearing on the alpha mask especially with fast movement on screen.
 

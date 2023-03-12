@@ -31,14 +31,13 @@
       }
       d-article d-contents .figcaption {
 
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(169, 169, 169, 0.8);
         line-height: 1.4em;
       }
       d-article d-contents .toc-line {
         border-right: 1px solid rgba(0, 0, 0, 0.1);
         grid-column: toc-line;
       } 
-  
       b i {
         display: inline;
       }
@@ -53,76 +52,82 @@
         padding-left: 2em;
         border-right: 1px solid rgba(0, 0, 0, 0.1);
       }
-  
+      
       d-contents nav h3 {
         margin-top: 0;
         margin-bottom: 1em;
       }
-  
+      
       d-contents nav div {
         color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
       }
-  
+      
       d-contents nav a {
         color: rgba(0, 0, 0, 0.8);
         border-bottom: none;
         text-decoration: none;
       }
-  
+      
       d-contents ul {
         padding-left: 1em;
       }
-  
+      
       d-contents nav ul li {
         margin-bottom: 0.25em;
       }
-  
+      
       d-contents nav a:hover {
         text-decoration: underline solid rgba(255, 255, 255, 0.6);
       }
-  
+      
       d-contents nav ul {
         margin-top: 0;
         margin-bottom: 6px;
       }
-  
+      
       d-contents nav > div {
         display: block;
         outline: none;
         margin-bottom: 0.8em;
       }
-  
+      
       d-contents nav > div > a {
         font-size: 13px;
         font-weight: 600;
       }
-  
-      
+
+
+      l-text figcaption, .figcaption {
+          color: rgba(255, 0, 0, 0.6);
+          font-size: 12px;
+          line-height: 1.5em;
+      }
+        
       d-contents nav > ul > li > a:hover {
         text-decoration: none;
       }
-
       
-    @media (max-width: 1300px) {
-      d-article d-contents {      
-        justify-self: start;
-        align-self: start;        
-        grid-column-start: 3;
-        grid-column-end: -3;
-        padding-bottom: 0.5em;
-        margin-bottom: 1em;
-        padding-top: 0.5em;            
-        width: 100%;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        border-left: 1px solid rgba(0, 0, 0, 0.1);
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-        border-bottom-color: rgba(0, 0, 0, 0.1);          
+
+      @media (max-width: 1300px) {
+        d-article d-contents {      
+          justify-self: start;
+          align-self: start;        
+          grid-column-start: 3;
+          grid-column-end: -3;
+          padding-bottom: 0.5em;
+          margin-bottom: 1em;
+          padding-top: 0.5em;            
+          width: 100%;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          border-left: 1px solid rgba(0, 0, 0, 0.1);
+          border-top: 1px solid rgba(0, 0, 0, 0.1);
+          border-bottom-width: 1px;
+          border-bottom-style: solid;
+          border-bottom-color: rgba(0, 0, 0, 0.1);          
+        }
       }
-    }
-    </style>
+      </style>
     {%- endif %}
   </head>
 

@@ -12,14 +12,18 @@ authors:
   - name: Samuel Pietri
 
 toc:
-  - name: Processing still images
+  - name: Idea
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Processing video footage
+  - name: Generative Terrains
+  - name: Sound Reactive setup
+  - name: GAN to Houdini
+  - name: Final output
 ---
 
+Before the light is the first track of the album Chrysalis and it's mainly connected to the idea of representing what comes just before the spark of light. I went on researching different ways to visualize this metaphor in a powerful yet abstract way. After different prototypes I decided to simulate dynamic cracks formations and fessure on surfaces che lasciassero trapelare, disvelare un bagliore forte e incessante. 
 
 {% twitter https://twitter.com/samuelpietri/status/1540696970406244352 %}
 
