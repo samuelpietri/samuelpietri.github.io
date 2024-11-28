@@ -3,7 +3,7 @@ layout: page
 title: Chrysalis - Album Cover
 description: ARTWORK
 img: assets/img/projects/Chrysalis_Cover/Chrysalis_ArtWork_cover.jpg
-importance: 1
+importance: 3
 category: work
 ---
 

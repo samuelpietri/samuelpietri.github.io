@@ -8,17 +8,23 @@ profile:
   align: right
   image: avatar.jpg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>Via Guido Rossa, 30</p>
-    <p>42018 - San Martino in Rio - RE</p>
-    <p>Italy</p>
+  #address: >
+  #  <p>Via Guido Rossa, 30</p>
+  #  <p>42018 - San Martino in Rio - RE</p>
+  #  <p>Italy</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a Creative Technologist with a multidisciplinary approach. My interest is strongly connected the development of projects with a strong innovative component in the field of emerging technologies with a focus on interactive and generative elements that can have a positive impact on people.
-I graduated in Architecture and Building Engineering at the University of Bologna in 2016 where I developed his interest toward computational design and algorithm design for design purposes. My master thesis untitled “Fibrous Aerial Robotics” focuses on the study of spiderweb strategies for the design of architectural envelopes using swarms of drones and inflatable formworks.
-I joined fuse* in 2017 as a Creative Technologist where I continued his research revolves around the study and exploration of generative models for the realization of simulation systems inspired by natural processes.I combine an architectural background with computer skills in the field of creative coding.
-Over time I conducted different projects centered on agent-based simulations, procedural algorithms and real-time graphics. His current research focuses on the exploration of generative models for biomimetic simulation systems, real-time graphics development and the integration of machine learning models for the development of interactive applications.
+I'm a visual artist and creative technologist with a multidisciplinary approach, specializing in projects that blend emerging technologies with interactive and generative elements. His work is driven by a passion for innovation and a commitment to creating experiences that positively impact people.
+
+I hold a Master's degree in Architecture and Building Engineering from the University of Bologna, where he developed a deep interest in computational and algorithmic design. His master’s thesis, titled “Fibrous Aerial Robotics,” explored the use of spiderweb strategies to design architectural envelopes using swarms of drones and inflatable formworks.
+
+As a Creative Technologist at fuse* design studio, I've contributed to shaping cutting-edge installations and performances worldwide. His research has since focused on generative models, simulating natural processes, and exploring the intersections of computational design and creative coding.
+
+My work includes projects centered on agent-based simulations, procedural algorithms, and real-time graphics. Currently, his research delves into biomimetic simulation systems, real-time graphics development, and integrating machine learning models to create interactive applications.
+
+In his latest explorations, I investigate the limits of human visual perception. By challenging the boundaries of sensory experience, he seeks to reveal unexpected experiences and explore the intricate relationship between visual perception and the interpretation of reality
+
