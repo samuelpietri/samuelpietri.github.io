@@ -9,19 +9,9 @@ category: work
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/911857085?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="òlo - Numbness"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-And now, the final act of life, the ultimate ripple. Death as its fulfillment.
+Numbness is an audiovisual installation that explores transformation, alienation, and the dissolution of the familiar. Through a dynamic interplay of imagery and sound, the work presents a forest that slowly mutates under the influence of foreign forces. What begins as a natural, calm environment is progressively altered—its shapes, textures, and rhythms shifting as external energies infiltrate. The organic and the unknown merge, creating an eerie, liminal space where reality becomes uncertain.
 
-We are mortal from the very first moment of life. Finiteness, from which there is no escape, can be both a stimulus and an inevitable promise for the living.
-
-But even as everything perishes, nothing and no one, not even the end itself, can ever take away the time we have reached.
-
-Yet something settles forever. And when the path is interrupted, we slip out of our own bodies, we dissolve, evaporate, blending into a shadow. Then a final icy kiss takes us away. And even the wind, weary, falls.
-
-
-Perhaps, as Zarathustra urged us, we should only 'die at the right moment.' Because death awakens us to life.
-
-
-
+Layered with dissonant soundscapes and fragmented voices, Numbness evokes a sense of detachment and estrangement. The installation captures the threshold between presence and absence, stability and rupture. As the forest succumbs to transformation, the piece reflects on the fragility of perception and the inevitability of change—questioning whether this metamorphosis is an invasion, an evolution, or an unraveling.
 
 
 <div class="row justify-content-sm-center">
@@ -29,13 +19,7 @@ Perhaps, as Zarathustra urged us, we should only 'die at the right moment.' Beca
         {% include figure.html path="assets/img/projects/Numbness/Numbness_002.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-Video Animation: Samuel Pietri
 
-Musical Composition: Riccardo Bazzoni
-
-Voice and Text: Elena Tsoutsis
-
-Year: 2023
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,7 +31,13 @@ Year: 2023
         {% include figure.html path="assets/img/projects/Numbness/Numbness_004.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+Video Animation: Samuel Pietri
 
+Musical Composition: Riccardo Bazzoni
+
+Voice and Text: Elena Tsoutsis
+
+Year: 2023
 
 
 

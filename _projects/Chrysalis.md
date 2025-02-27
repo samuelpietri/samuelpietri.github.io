@@ -11,7 +11,8 @@ category: work
 <div class="caption">
    Chrysalis - Chrysalis Album
 </div>
-Between the end of 2021 and the beginning of 2022 I had the possibility to work with sound designer and composer Riccardo Bazzoni to create the visual exeperience surround the entire composition. Here's the official teaser anticipating the public release of **[Chrysalis](https://chrysalisband.bandcamp.com/)**.
+Chrysalis is an audiovisual piece that embodies transformation, resonating with the delicate yet powerful metamorphic phase of the butterfly. As both the title track and the conceptual core of the album, the work explores a state of flux—where form is neither fixed nor fully realized, but suspended in the tension of becoming.
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,6 +22,8 @@ Between the end of 2021 and the beginning of 2022 I had the possibility to work 
 
 <br />
 
+Utilizing early diffusion-based image generation techniques, Chrysalis pushes the expressive potential of AI-driven visuals, crafting abstract yet evocative imagery that reacts to sound in innovative ways. 
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/Chrysalis/chrysalis_002.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -29,6 +32,7 @@ Between the end of 2021 and the beginning of 2022 I had the possibility to work 
 
 <br />
 
+Smoke-like structures emerge and dissolve, possessing both sculptural weight and fleeting ephemerality. Their fluid, multi-form nature mirrors the evolving soundscape, creating a sensory experience that captures the essence of transformation—an interplay between dissolution and emergence, between the undefined and the inevitable.
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/Chrysalis/chrysalis_009.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

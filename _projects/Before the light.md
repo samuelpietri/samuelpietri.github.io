@@ -11,9 +11,7 @@ category: work
 <div class="caption">
     Before the light - Chrysalis Album
 </div>
-
-Chrysalis, Riccardo Bazzoni's debut album, opens with a first track entitled 'Before the light'. The track is a symbol of that original moment, as obscure as it is impenetrable, represented by the birth of life. A mixture of elements impetuously impose themselves on existence, in the overwhelming initiatory path that leads to light.
-
+Before the Light is an audiovisual exploration of an original, enigmatic moment—the birth of life itself. Inspired by the homonymous audio track, the piece embodies the raw, untamed force that breaks through darkness, shaping existence in an overwhelming initiatory surge. A dynamic interplay of shifting textures and light unfolds, illustrating the chaotic yet inevitable journey toward illumination.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,7 +19,7 @@ Chrysalis, Riccardo Bazzoni's debut album, opens with a first track entitled 'Be
     </div>
 </div>
 
-The initial idea was to describe the origin of a journey through a boundary ready to explode, the instinct for life that violently seeks a way to break into chaos, into the darkness that changes continuously. The resulting changing structure is indissolubly joined to the sound texture. 
+At the core of the work lies an experimental generative system driven by artificial neural networks (GANs). By training models on altimetric images of the Earth's surface—rich in fractal structures and multi-scale detail—I developed a continuously evolving stream of visual textures. These generative forms, shaped and guided by the soundscape, create a fluid, ever-transforming experience. The final installation captures a single crystallized instance of this infinite process, suspending the viewer in the fragile moment before emergence.
 
 <br />
 
@@ -32,12 +30,6 @@ The initial idea was to describe the origin of a journey through a boundary read
 </div>
 
 <br />
-I started experimenting with artificial generative models (GANs) with the intention of creating a system capable of generating a continuous stream of textures that could be easily controllable.
-
-I also used altimetric images of the earth's surface as a starting material because they incorporate fractal structures with a lot of detail on different scales.
-The execution of customized training of the neural network allowed me to elaborate on variations while maintaining the possibility of defining even small details.
-
-The texture generation system was therefore guided by the sound elements and the final result is nothing more than a rendering of the process, crystallized over time, of one of the infinite possible variations.
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/Before_the_Light/before_the_light_003.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

@@ -11,7 +11,7 @@ category: work
 <div class="caption">
    Chorion - Chrysalis Album
 </div>
-Between the end of 2021 and the beginning of 2022 I had the possibility to work with sound designer and composer Riccardo Bazzoni to create the visual exeperience surround the entire composition. Here's the official teaser anticipating the public release of **[Chrysalis](https://chrysalisband.bandcamp.com/)**.
+Chorion is an audiovisual exploration of transformation and resilience, inspired by the delicate yet protective structure of butterfly eggs. Just as the chorion safeguards the larval development within, this piece resonates with the chrysalis in its metamorphic state—an enclosed space of fluid change, tension, and imminent evolution.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -20,6 +20,8 @@ Between the end of 2021 and the beginning of 2022 I had the possibility to work 
 </div>
 
 <br />
+
+At the core of Chorion is a generative visual system driven by GANs (Generative Adversarial Networks), trained on images of moving and crashing water. This ever-shifting visual flux forms textured landscapes that evolve in real-time, shaped and sculpted by sound. The resulting imagery is both organic and abstract, evoking the microscopic yet monumental forces at play within the fragile shell of new life. By fusing generative image synthesis with reactive sound design, Chorion seeks to push the boundaries of audiovisual expression, immersing the viewer in a world where transformation is both a process and an experience.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">

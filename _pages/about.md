@@ -18,13 +18,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a visual artist and creative technologist with a multidisciplinary approach, specializing in projects that blend emerging technologies with interactive and generative elements. His work is driven by a passion for innovation and a commitment to creating experiences that positively impact people.
+I am a visual artist and creative technologist with a multidisciplinary approach, specializing in projects that blend emerging technologies with interactive and generative elements. My work is driven by a passion for innovation and a commitment to creating experiences that engage and inspire.
 
-I hold a Master's degree in Architecture and Building Engineering from the University of Bologna, where he developed a deep interest in computational and algorithmic design. His master’s thesis, titled “Fibrous Aerial Robotics,” explored the use of spiderweb strategies to design architectural envelopes using swarms of drones and inflatable formworks.
+I hold a Master's degree in Architecture and Building Engineering from the University of Bologna, where I developed a deep interest in computational and algorithmic design. My master’s thesis, Fibrous Aerial Robotics, explored the use of spiderweb-inspired strategies to design architectural envelopes through swarms of drones and inflatable formworks.
 
-As a Creative Technologist at fuse* design studio, I've contributed to shaping cutting-edge installations and performances worldwide. His research has since focused on generative models, simulating natural processes, and exploring the intersections of computational design and creative coding.
+As a Creative Technologist at fuse* design studio, I have contributed to cutting-edge installations and performances worldwide. My research focuses on generative models, natural process simulations, and the intersections of computational design and creative coding. My work spans agent-based simulations, procedural algorithms, and real-time graphics, with a current emphasis on biomimetic systems, real-time rendering, and integrating machine learning into interactive applications.
 
-My work includes projects centered on agent-based simulations, procedural algorithms, and real-time graphics. Currently, his research delves into biomimetic simulation systems, real-time graphics development, and integrating machine learning models to create interactive applications.
-
-In his latest explorations, I investigate the limits of human visual perception. By challenging the boundaries of sensory experience, he seeks to reveal unexpected experiences and explore the intricate relationship between visual perception and the interpretation of reality
-
+Lately, I have been exploring the limits of human visual perception, challenging sensory boundaries to uncover unexpected experiences. Through my practice, I seek to reveal the intricate relationship between perception and reality, expanding how we interpret the world around us.
