@@ -1,4 +1,4 @@
-# Samuel Pietri personal website
+# Samuel Pietri personal website - OLD
 The theme is a modified version of al-folio jekyll theme.
 ## License
 
